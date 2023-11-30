@@ -356,7 +356,7 @@ header {
 }
 
 .child1 img {
-    margin-left: 220px;;
+    margin-left: 220px;
     margin-top: 100px;
     width: 280px;
     height: 430px;
@@ -500,5 +500,167 @@ header {
 }
 
 @media screen and (max-width: 420px) {
+    * {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto Condensed';
+    }
+    .main_text {
+        font-size: 72px;
+    }
+    .price {
+        padding-top: 50px;
+    }
+    .ball {
+        padding-bottom: 30px;
+    }
+    .bl1 {
+        width: 100px;
+        height: auto;
+    }
+    .bl3 {
+        width: 50px;
+        height: auto;
+    }
+    .bl2 {
+        width: 100px;
+        height: auto;
+    }
+    .navs {
+        display: flex;
+        grid-gap: 0 52px;
+        font-size: 15px;
+    }
 
+    .tel img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .tour {
+        padding-left: 210px;
+        margin-top: -22px;
+        font-size: 24px;
+        font-family: 'Roboto Condensed';
+    }
+    
+    .tour1{
+        margin-top: -20px;
+        padding-left: 524px;
+    }
+    .tour2{
+        padding-left: 270px;
+    }
+    .tour3 {
+        padding-left: 144px;
+        margin-top: -30px;
+        padding-bottom: 50px;
+    }
+    .tel a {
+        position: relative;
+        bottom: 6px;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 900;
+        color: #000;
+    }
+    .main_text1 {
+        font-size: 79px;
+        padding-left: 362px;
+    }    
+
+    .text-container {
+        flex-direction: column;
+    }
+    .text-container1 {
+        flex-direction: column;
+    }
+    .marshrut img {
+        margin-right: 0px;
+        margin-top: 50px;
+        width: 763px;
+    }
+    .hotel img {
+        padding-left: 0px;
+    }
+    .hotel{
+        flex-direction: column;
+    }
+    .hoteltext{
+        padding-top: 5px;
+    }
+    .trfl{
+        flex-direction: column;
+    }
+    .regtexw {
+        flex-direction: column;
+    }
+    .regtext {
+        padding-bottom: 10px;
+    }
+    .dream {
+        font-size: 42px;
+        padding-left: 464px;
+        padding-top: 183px;
+    }
+    .child1 img {
+        margin-left: 70px;
+        margin-top: 29px;
+    }
+    .child2 {
+        position: absolute;
+        top: 74px;
+        left: 100px;
+    }
+    .child3{
+        top: 184px;
+        left: 120px;
+    }
+    .child3 img {
+        height: 20px;
+        width: 20px;
+    }
+    .child4 {
+        position: absolute;
+        left: 150px;
+        top: 275px;
+    }
+    .parent {
+        height: 232px;
+    }
+    .captext{
+        padding-top: 40px;
+    }
+    .main_text2{
+        padding-left: 25px;
+    }
+    .main_text3{
+        padding-left: 25px;
+    }
+    .main_text5 {
+        padding-left: 40px;
+    }
+    .tour5{
+        padding-left: 150px;
+    }
+    .main_text6 {
+        padding-left: 150px;
+    }
+    .tour6{
+        padding-left: 250px;
+    }
+    .reg {
+        padding-left: 25px;
+    }
+    .regtext h3 {
+        padding-left: 150px;
+        padding-top: 50px;
+    }
+    .dream {
+        font-size: 42px;
+        padding-left: 82px;
+        padding-top: 262px;
+    }
 }
